@@ -85,7 +85,7 @@ class CustomButton extends StatelessWidget {
           onTap: (){},
           child: const Padding(
             padding: EdgeInsets.all(8.0),
-            child: Text('Hello World', style: const TextStyle(color: Colors.white),),
+            child: Text('Hello World', style: TextStyle(color: Colors.white),),
           ),
         ),
       ),
