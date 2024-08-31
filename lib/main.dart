@@ -13,7 +13,8 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(//MaterialApp.router allows specifying the router manager
     routerConfig: appRouter,//routs defined
-      debugShowMaterialGrid: false,
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Wigets',// this title is shown in the showAboutDialog
       theme: AppTheme(selectedColor: 0).getTheme(),
       //home: HomeScreen(), //not necessary as go router specifies the initial path '/' as home 
         
